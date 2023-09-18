@@ -1,8 +1,6 @@
 package com.abhinav.adaptor.ThirdPartyService;
 
-import org.springframework.stereotype.Service;
-
-public class HdfcThirdPartyBankService implements ThirdPartyBankService {
+public class HdfcThirdPartyBankService {
     public void getBalance() {
         System.out.println("HDFC bank balance fetched");
     }
